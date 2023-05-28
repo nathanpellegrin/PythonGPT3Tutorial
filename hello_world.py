@@ -7,7 +7,7 @@ def open_file(filepath):
 
 
 #openai.api_key = open_file('openaiapikey.txt')
-openai.api_key = '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'
+#openai.api_key = 'sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 def gpt3_completion(prompt, engine='text-davinci-002', temp=0.7, top_p=1.0, tokens=400, freq_pen=0.0, pres_pen=0.0, stop=['<<END>>']):
     prompt = prompt.encode(encoding='ASCII',errors='ignore').decode()
